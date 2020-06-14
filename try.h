@@ -3,9 +3,9 @@
  */
 ///@{
 /** Function 2 in group 3. Details. */
-void Memgrp_Test::func2InGroup2() {}
+void func2InGroup2() {}
 /** Function 1 in group 3. Details. */
-void Memgrp_Test::func1InGroup2() {}
+void func1InGroup2() {}
 ///@}
 
 
