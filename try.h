@@ -1,3 +1,13 @@
+/** @name Group3
+ *  Description of group 3. 
+ */
+///@{
+/** Function 2 in group 3. Details. */
+void Memgrp_Test::func2InGroup2() {}
+/** Function 1 in group 3. Details. */
+void Memgrp_Test::func1InGroup2() {}
+///@}
+
 
 ////////////////////////////////////////////////////////////////////////////////
 //// Group_1
