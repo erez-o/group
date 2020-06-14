@@ -8,6 +8,9 @@ void func2InGroup2() {}
 void func1InGroup2() {}
 ///@}
 
+void funcNotInGroup1() {}
+/** Function 1 in group 3. Details. */
+void funcNotInGroup2() {}
 
 ////////////////////////////////////////////////////////////////////////////////
 //// Group_1
@@ -51,34 +54,5 @@ typedef int32_t (*ecs_rank_type_action_t)(
 typedef void (*ecs_module_action_t)(
     ecs_world_t *world,
     int flags);    
-
-///@}
-
-////////////////////////////////////////////////////////////////////////////////
-//// Group_2
-////////////////////////////////////////////////////////////////////////////////
-
-/** @name Group1
- *  Description of group 1. 
- */
-///@{
-
-typedef struct EcsName {
-    const char *value;      /* Entity name */
-    const char *symbol;     /* Optional symbol name, if it differs from name */
-    char *alloc_value;      /* If set, value will be freed on destruction */
-} EcsName;
-
-/** Component that contains the size of a component */
-typedef struct EcsComponent {
-    size_t size;
-    size_t alignment;
-} EcsComponent;
-
-/** Metadata of an explicitly created type (ECS_TYPE or ecs_new_type) */
-typedef struct EcsType {
-    ecs_type_t type;        /* Preserved nested types */
-    ecs_type_t normalized;  /* Resolved nested types */
-} EcsType;
 
 ///@}
