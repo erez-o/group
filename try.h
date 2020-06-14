@@ -1,8 +1,12 @@
 
-
 ////////////////////////////////////////////////////////////////////////////////
 //// Group_1
 ////////////////////////////////////////////////////////////////////////////////
+
+/** @defgroup group1 The First Group
+ *  This is the first group
+ *  @{
+ */
 
 /* An entity identifier. */
 typedef uint64_t ecs_entity_t;
@@ -39,10 +43,16 @@ typedef void (*ecs_module_action_t)(
     int flags);    
 
 
+/** @} */ // end of group1
 
 ////////////////////////////////////////////////////////////////////////////////
 //// Group_2
 ////////////////////////////////////////////////////////////////////////////////
+
+/** @defgroup group2 The Second Group
+ *  This is the second group
+ *  @{
+ */
 
 typedef struct EcsName {
     const char *value;      /* Entity name */
@@ -61,3 +71,5 @@ typedef struct EcsType {
     ecs_type_t type;        /* Preserved nested types */
     ecs_type_t normalized;  /* Resolved nested types */
 } EcsType;
+
+/** @} */ // end of group2
