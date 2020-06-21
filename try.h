@@ -3,6 +3,9 @@
  */
 ///@{
 
+/** Function 4 in group 3. Details. */
+void afunc2InGroup3() {}
+
 /** Filters alllow for ad-hoc quick filtering of entity tables. */
 typedef struct ecs_filter_t {
     ecs_type_t include;             /**< Components that should match */
