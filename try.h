@@ -3,8 +3,12 @@
  */
 ///@{
 
-/** Function 4 in group 3. Details. */
-void afunc2InGroup3() {}
+/** Some other define. */
+#define ZECS_INS ((ecs_entity_t)1 << 63)
+
+/** Function 2 in group 3. Details. */
+void func2InGroup3() {}
+
 
 /** Filters alllow for ad-hoc quick filtering of entity tables. */
 typedef struct ecs_filter_t {
@@ -14,8 +18,8 @@ typedef struct ecs_filter_t {
     ecs_match_kind_t exclude_kind;  /**< Match kind for exclude components */
 } ecs_filter_t;
 
-/** Function 2 in group 3. Details. */
-void func2InGroup3() {}
+/** Function 4 in group 3. Details. */
+void afunc2InGroup3() {}
 
 /** The INSTANCEOF role indicates that the components from the entity should be
  * shared with the entity that instantiates the type. */
