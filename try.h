@@ -1,5 +1,5 @@
-/** @name Group3
- *  Description of group 3. 
+/** @name API Types
+ *  Basic API Types
  */
 ///@{
 
