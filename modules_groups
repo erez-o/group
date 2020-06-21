@@ -1,5 +1,6 @@
-/** @name API Types
+/** @defgroup API Types
  *  Basic API Types
+ *  @{
  */
 ///@{
 
@@ -36,7 +37,7 @@ typedef enum ecs_match_kind_t {
     EcsMatchExact           /**< Match the type exactly */
 } ecs_match_kind_t;
 
-///@}
+/** @} */ // end of group1
 
 void funcNotInGroup1() {}
 /** Function 1 in group 3. Details. */
