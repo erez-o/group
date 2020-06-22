@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="group__API" kind="group">
+    <compoundname>API</compoundname>
+    <title>Types</title>
+    <innerclass refid="structecs__filter__t" prot="public">ecs_filter_t</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__API_1gab0f5929fe1a33b8e23b9901784b4fd75" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ecs_match_kind_t</name>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a1de70985fb0c9de03a633b1fa2cb3ee3" prot="public">
+          <name>EcsMatchDefault</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ac93a06dabf2a3f102574f6c8e57b33aa" prot="public">
+          <name>EcsMatchAll</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match all components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a9deca568d11effed47a4c4a6a47615b2" prot="public">
+          <name>EcsMatchAny</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match one of the components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ad97227e53c97887a34f46d2f01846e62" prot="public">
+          <name>EcsMatchExact</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match the type exactly </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a1de70985fb0c9de03a633b1fa2cb3ee3" prot="public">
+          <name>EcsMatchDefault</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ac93a06dabf2a3f102574f6c8e57b33aa" prot="public">
+          <name>EcsMatchAll</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match all components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a9deca568d11effed47a4c4a6a47615b2" prot="public">
+          <name>EcsMatchAny</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match one of the components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ad97227e53c97887a34f46d2f01846e62" prot="public">
+          <name>EcsMatchExact</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match the type exactly </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Describes how a filter should match components with a table. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="33" column="30" bodyfile="modules_groups.h" bodystart="33" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="group__API_1gab9909ad22416bf7d885e91f72d9d68c9" prot="public" static="no" mutable="no">
+        <type>ecs_type_t</type>
+        <definition>ecs_type_t ecs_filter_t::include</definition>
+        <argsstring></argsstring>
+        <name>include</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Components that should match </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="15" column="16" bodyfile="member_groups.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__API_1ga5047d3321021499f9d537813731b1918" prot="public" static="no" mutable="no">
+        <type>ecs_type_t</type>
+        <definition>ecs_type_t ecs_filter_t::exclude</definition>
+        <argsstring></argsstring>
+        <name>exclude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Components that should not match </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="16" column="16" bodyfile="member_groups.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__API_1ga784f343f8d107d1d9e6948f8ffcb86e6" prot="public" static="no" mutable="no">
+        <type><ref refid="member__groups_8h_1ab0f5929fe1a33b8e23b9901784b4fd75" kindref="member">ecs_match_kind_t</ref></type>
+        <definition>ecs_match_kind_t ecs_filter_t::include_kind</definition>
+        <argsstring></argsstring>
+        <name>include_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Match kind for include components </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="17" column="22" bodyfile="member_groups.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__API_1gaf00367c46db740cfa41feef15b215d1d" prot="public" static="no" mutable="no">
+        <type><ref refid="member__groups_8h_1ab0f5929fe1a33b8e23b9901784b4fd75" kindref="member">ecs_match_kind_t</ref></type>
+        <definition>ecs_match_kind_t ecs_filter_t::exclude_kind</definition>
+        <argsstring></argsstring>
+        <name>exclude_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Match kind for exclude components </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="18" column="22" bodyfile="member_groups.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__API_1ga9d7e835203b1aab0ace689f262bfbf7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func2InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>func2InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 2 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="11" column="6" bodyfile="modules_groups.h" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1ga86ae42cd2e49f04e09fcca472c652bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void afunc2InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>afunc2InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 4 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="23" column="6" bodyfile="modules_groups.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1gab649ea1d5611c745016b04d9470ee99d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func1InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>func1InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 1 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="30" column="6" bodyfile="modules_groups.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1gadb44cd8713d75ed1a84c6a5f5328f39a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void funcNotInGroup1</definition>
+        <argsstring>()</argsstring>
+        <name>funcNotInGroup1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="42" column="6" bodyfile="modules_groups.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1gae572663cd08d1212c0b75360a9304e02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void funcNotInGroup2</definition>
+        <argsstring>()</argsstring>
+        <name>funcNotInGroup2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 1 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="44" column="6" bodyfile="modules_groups.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__API_1ga9ce646454010ef1bd55ea09584ea8a65" prot="public" static="no">
+        <name>ZECS_INS</name>
+        <initializer>((ecs_entity_t)1 &lt;&lt; 63)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Some other define. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="8" column="9" bodyfile="modules_groups.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__API_1ga1942a9da5a5e28f48764dcf80b092d2f" prot="public" static="no">
+        <name>ECS_INSTANCEOF</name>
+        <initializer>((ecs_entity_t)1 &lt;&lt; 63)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The INSTANCEOF role indicates that the components from the entity should be shared with the entity that instantiates the type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="27" column="9" bodyfile="modules_groups.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Basic API Types. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

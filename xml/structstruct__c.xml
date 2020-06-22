@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="structstruct__c" kind="struct" language="C++" prot="public">
+    <compoundname>struct_c</compoundname>
+    <includes refid="member__groups__only__structs_8h" local="no">member_groups_only_structs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstruct__c_1a05480d71ad08c5623c91d8e238892e61" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int struct_c::c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>something two </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups_only_structs.h" line="21" column="9" bodyfile="member_groups_only_structs.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Comment struct c not in group </para>
+    </detaileddescription>
+    <location file="member_groups_only_structs.h" line="20" column="15" bodyfile="member_groups_only_structs.h" bodystart="20" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structstruct__c_1a05480d71ad08c5623c91d8e238892e61" prot="public" virt="non-virtual"><scope>struct_c</scope><name>c</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

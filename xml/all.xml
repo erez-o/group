@@ -1,0 +1,944 @@
+<?xml version="1.0" standalone="yes"?>
+<doxygen version="1.8.18"><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="structecs__filter__t" kind="struct" language="C++" prot="public">
+    <compoundname>ecs_filter_t</compoundname>
+    <includes refid="member__groups_8h" local="no">member_groups.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="group__API_1gab9909ad22416bf7d885e91f72d9d68c9" prot="public" static="no" mutable="no">
+        <type>ecs_type_t</type>
+        <definition>ecs_type_t ecs_filter_t::include</definition>
+        <argsstring/>
+        <name>include</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Components that should match </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="15" column="16" bodyfile="member_groups.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__API_1ga5047d3321021499f9d537813731b1918" prot="public" static="no" mutable="no">
+        <type>ecs_type_t</type>
+        <definition>ecs_type_t ecs_filter_t::exclude</definition>
+        <argsstring/>
+        <name>exclude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Components that should not match </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="16" column="16" bodyfile="member_groups.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__API_1ga784f343f8d107d1d9e6948f8ffcb86e6" prot="public" static="no" mutable="no">
+        <type><ref refid="member__groups_8h_1ab0f5929fe1a33b8e23b9901784b4fd75" kindref="member">ecs_match_kind_t</ref></type>
+        <definition>ecs_match_kind_t ecs_filter_t::include_kind</definition>
+        <argsstring/>
+        <name>include_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Match kind for include components </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="17" column="22" bodyfile="member_groups.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__API_1gaf00367c46db740cfa41feef15b215d1d" prot="public" static="no" mutable="no">
+        <type><ref refid="member__groups_8h_1ab0f5929fe1a33b8e23b9901784b4fd75" kindref="member">ecs_match_kind_t</ref></type>
+        <definition>ecs_match_kind_t ecs_filter_t::exclude_kind</definition>
+        <argsstring/>
+        <name>exclude_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Match kind for exclude components </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="18" column="22" bodyfile="member_groups.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Filters alllow for ad-hoc quick filtering of entity tables. </para>
+    </detaileddescription>
+    <location file="member_groups.h" line="14" column="27" bodyfile="member_groups.h" bodystart="14" bodyend="19"/>
+    <listofallmembers>
+      <member refid="group__API_1ga5047d3321021499f9d537813731b1918" prot="public" virt="non-virtual"><scope>ecs_filter_t</scope><name>exclude</name></member>
+      <member refid="group__API_1gaf00367c46db740cfa41feef15b215d1d" prot="public" virt="non-virtual"><scope>ecs_filter_t</scope><name>exclude_kind</name></member>
+      <member refid="group__API_1gab9909ad22416bf7d885e91f72d9d68c9" prot="public" virt="non-virtual"><scope>ecs_filter_t</scope><name>include</name></member>
+      <member refid="group__API_1ga784f343f8d107d1d9e6948f8ffcb86e6" prot="public" virt="non-virtual"><scope>ecs_filter_t</scope><name>include_kind</name></member>
+    </listofallmembers>
+  </compounddef><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="structstruct__a" kind="struct" language="C++" prot="public">
+    <compoundname>struct_a</compoundname>
+    <includes refid="member__groups__only__structs_8h" local="no">member_groups_only_structs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstruct__a_1ac724d2a008095157a16113a80c90e8e0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float struct_a::b</definition>
+        <argsstring/>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>something else </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups_only_structs.h" line="14" column="11" bodyfile="member_groups_only_structs.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Comment struct a </para>
+    </detaileddescription>
+    <location file="member_groups_only_structs.h" line="13" column="15" bodyfile="member_groups_only_structs.h" bodystart="13" bodyend="15"/>
+    <listofallmembers>
+      <member refid="structstruct__a_1ac724d2a008095157a16113a80c90e8e0" prot="public" virt="non-virtual"><scope>struct_a</scope><name>b</name></member>
+    </listofallmembers>
+  </compounddef><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="structstruct__b" kind="struct" language="C++" prot="public">
+    <compoundname>struct_b</compoundname>
+    <includes refid="member__groups__only__structs_8h" local="no">member_groups_only_structs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstruct__b_1a17cf90602950bf78f78171c3e312714b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int struct_b::a</definition>
+        <argsstring/>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>something </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups_only_structs.h" line="8" column="9" bodyfile="member_groups_only_structs.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Comment struct b </para>
+    </detaileddescription>
+    <location file="member_groups_only_structs.h" line="7" column="15" bodyfile="member_groups_only_structs.h" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+      <member refid="structstruct__b_1a17cf90602950bf78f78171c3e312714b" prot="public" virt="non-virtual"><scope>struct_b</scope><name>a</name></member>
+    </listofallmembers>
+  </compounddef><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="structstruct__c" kind="struct" language="C++" prot="public">
+    <compoundname>struct_c</compoundname>
+    <includes refid="member__groups__only__structs_8h" local="no">member_groups_only_structs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstruct__c_1a05480d71ad08c5623c91d8e238892e61" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int struct_c::c</definition>
+        <argsstring/>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>something two </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups_only_structs.h" line="21" column="9" bodyfile="member_groups_only_structs.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Comment struct c not in group </para>
+    </detaileddescription>
+    <location file="member_groups_only_structs.h" line="20" column="15" bodyfile="member_groups_only_structs.h" bodystart="20" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structstruct__c_1a05480d71ad08c5623c91d8e238892e61" prot="public" virt="non-virtual"><scope>struct_c</scope><name>c</name></member>
+    </listofallmembers>
+  </compounddef><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namespacestd" kind="namespace" language="Unknown">
+    <compoundname>std</compoundname>
+    <innerclass refid="classstd_1_1allocator" prot="public">std::allocator</innerclass>
+    <innerclass refid="classstd_1_1array" prot="public">std::array</innerclass>
+    <innerclass refid="classstd_1_1atomic" prot="public">std::atomic</innerclass>
+    <innerclass refid="classstd_1_1atomic__ref" prot="public">std::atomic_ref</innerclass>
+    <innerclass refid="classstd_1_1auto__ptr" prot="public">std::auto_ptr</innerclass>
+    <innerclass refid="classstd_1_1bad__alloc" prot="public">std::bad_alloc</innerclass>
+    <innerclass refid="classstd_1_1bad__cast" prot="public">std::bad_cast</innerclass>
+    <innerclass refid="classstd_1_1bad__exception" prot="public">std::bad_exception</innerclass>
+    <innerclass refid="classstd_1_1bad__typeid" prot="public">std::bad_typeid</innerclass>
+    <innerclass refid="classstd_1_1basic__fstream" prot="public">std::basic_fstream</innerclass>
+    <innerclass refid="classstd_1_1basic__ifstream" prot="public">std::basic_ifstream</innerclass>
+    <innerclass refid="classstd_1_1basic__ios" prot="public">std::basic_ios</innerclass>
+    <innerclass refid="classstd_1_1basic__iostream" prot="public">std::basic_iostream</innerclass>
+    <innerclass refid="classstd_1_1basic__istream" prot="public">std::basic_istream</innerclass>
+    <innerclass refid="classstd_1_1basic__istringstream" prot="public">std::basic_istringstream</innerclass>
+    <innerclass refid="classstd_1_1basic__ofstream" prot="public">std::basic_ofstream</innerclass>
+    <innerclass refid="classstd_1_1basic__ostream" prot="public">std::basic_ostream</innerclass>
+    <innerclass refid="classstd_1_1basic__ostringstream" prot="public">std::basic_ostringstream</innerclass>
+    <innerclass refid="classstd_1_1basic__string" prot="public">std::basic_string</innerclass>
+    <innerclass refid="classstd_1_1basic__string__view" prot="public">std::basic_string_view</innerclass>
+    <innerclass refid="classstd_1_1basic__stringstream" prot="public">std::basic_stringstream</innerclass>
+    <innerclass refid="classstd_1_1bitset" prot="public">std::bitset</innerclass>
+    <innerclass refid="classstd_1_1complex" prot="public">std::complex</innerclass>
+    <innerclass refid="classstd_1_1deque" prot="public">std::deque</innerclass>
+    <innerclass refid="classstd_1_1domain__error" prot="public">std::domain_error</innerclass>
+    <innerclass refid="classstd_1_1error__category" prot="public">std::error_category</innerclass>
+    <innerclass refid="classstd_1_1error__code" prot="public">std::error_code</innerclass>
+    <innerclass refid="classstd_1_1error__condition" prot="public">std::error_condition</innerclass>
+    <innerclass refid="classstd_1_1exception" prot="public">std::exception</innerclass>
+    <innerclass refid="classstd_1_1forward__list" prot="public">std::forward_list</innerclass>
+    <innerclass refid="classstd_1_1fstream" prot="public">std::fstream</innerclass>
+    <innerclass refid="classstd_1_1ifstream" prot="public">std::ifstream</innerclass>
+    <innerclass refid="classstd_1_1invalid__argument" prot="public">std::invalid_argument</innerclass>
+    <innerclass refid="classstd_1_1ios" prot="public">std::ios</innerclass>
+    <innerclass refid="classstd_1_1ios__base" prot="public">std::ios_base</innerclass>
+    <innerclass refid="classstd_1_1istream" prot="public">std::istream</innerclass>
+    <innerclass refid="classstd_1_1istringstream" prot="public">std::istringstream</innerclass>
+    <innerclass refid="classstd_1_1jthread" prot="public">std::jthread</innerclass>
+    <innerclass refid="classstd_1_1length__error" prot="public">std::length_error</innerclass>
+    <innerclass refid="classstd_1_1list" prot="public">std::list</innerclass>
+    <innerclass refid="classstd_1_1lock__guard" prot="public">std::lock_guard</innerclass>
+    <innerclass refid="classstd_1_1logic__error" prot="public">std::logic_error</innerclass>
+    <innerclass refid="classstd_1_1map" prot="public">std::map</innerclass>
+    <innerclass refid="classstd_1_1multimap" prot="public">std::multimap</innerclass>
+    <innerclass refid="classstd_1_1multiset" prot="public">std::multiset</innerclass>
+    <innerclass refid="classstd_1_1mutex" prot="public">std::mutex</innerclass>
+    <innerclass refid="classstd_1_1ofstream" prot="public">std::ofstream</innerclass>
+    <innerclass refid="classstd_1_1ostream" prot="public">std::ostream</innerclass>
+    <innerclass refid="classstd_1_1ostringstream" prot="public">std::ostringstream</innerclass>
+    <innerclass refid="classstd_1_1out__of__range" prot="public">std::out_of_range</innerclass>
+    <innerclass refid="classstd_1_1overflow__error" prot="public">std::overflow_error</innerclass>
+    <innerclass refid="classstd_1_1priority__queue" prot="public">std::priority_queue</innerclass>
+    <innerclass refid="classstd_1_1queue" prot="public">std::queue</innerclass>
+    <innerclass refid="classstd_1_1range__error" prot="public">std::range_error</innerclass>
+    <innerclass refid="classstd_1_1recursive__mutex" prot="public">std::recursive_mutex</innerclass>
+    <innerclass refid="classstd_1_1recursive__timed__mutex" prot="public">std::recursive_timed_mutex</innerclass>
+    <innerclass refid="classstd_1_1runtime__error" prot="public">std::runtime_error</innerclass>
+    <innerclass refid="classstd_1_1set" prot="public">std::set</innerclass>
+    <innerclass refid="classstd_1_1shared__lock" prot="public">std::shared_lock</innerclass>
+    <innerclass refid="classstd_1_1shared__mutex" prot="public">std::shared_mutex</innerclass>
+    <innerclass refid="classstd_1_1shared__ptr" prot="public">std::shared_ptr</innerclass>
+    <innerclass refid="classstd_1_1shared__timed__mutex" prot="public">std::shared_timed_mutex</innerclass>
+    <innerclass refid="classstd_1_1smart__ptr" prot="public">std::smart_ptr</innerclass>
+    <innerclass refid="classstd_1_1span" prot="public">std::span</innerclass>
+    <innerclass refid="classstd_1_1stack" prot="public">std::stack</innerclass>
+    <innerclass refid="classstd_1_1string" prot="public">std::string</innerclass>
+    <innerclass refid="classstd_1_1string__view" prot="public">std::string_view</innerclass>
+    <innerclass refid="classstd_1_1stringstream" prot="public">std::stringstream</innerclass>
+    <innerclass refid="classstd_1_1system__error" prot="public">std::system_error</innerclass>
+    <innerclass refid="classstd_1_1thread" prot="public">std::thread</innerclass>
+    <innerclass refid="classstd_1_1timed__mutex" prot="public">std::timed_mutex</innerclass>
+    <innerclass refid="classstd_1_1u16string" prot="public">std::u16string</innerclass>
+    <innerclass refid="classstd_1_1u16string__view" prot="public">std::u16string_view</innerclass>
+    <innerclass refid="classstd_1_1u32string" prot="public">std::u32string</innerclass>
+    <innerclass refid="classstd_1_1u32string__view" prot="public">std::u32string_view</innerclass>
+    <innerclass refid="classstd_1_1u8string" prot="public">std::u8string</innerclass>
+    <innerclass refid="classstd_1_1u8string__view" prot="public">std::u8string_view</innerclass>
+    <innerclass refid="classstd_1_1underflow__error" prot="public">std::underflow_error</innerclass>
+    <innerclass refid="classstd_1_1unique__lock" prot="public">std::unique_lock</innerclass>
+    <innerclass refid="classstd_1_1unique__ptr" prot="public">std::unique_ptr</innerclass>
+    <innerclass refid="classstd_1_1unordered__map" prot="public">std::unordered_map</innerclass>
+    <innerclass refid="classstd_1_1unordered__multimap" prot="public">std::unordered_multimap</innerclass>
+    <innerclass refid="classstd_1_1unordered__multiset" prot="public">std::unordered_multiset</innerclass>
+    <innerclass refid="classstd_1_1unordered__set" prot="public">std::unordered_set</innerclass>
+    <innerclass refid="classstd_1_1valarray" prot="public">std::valarray</innerclass>
+    <innerclass refid="classstd_1_1vector" prot="public">std::vector</innerclass>
+    <innerclass refid="classstd_1_1weak__ptr" prot="public">std::weak_ptr</innerclass>
+    <innerclass refid="classstd_1_1wfstream" prot="public">std::wfstream</innerclass>
+    <innerclass refid="classstd_1_1wifstream" prot="public">std::wifstream</innerclass>
+    <innerclass refid="classstd_1_1wios" prot="public">std::wios</innerclass>
+    <innerclass refid="classstd_1_1wistream" prot="public">std::wistream</innerclass>
+    <innerclass refid="classstd_1_1wistringstream" prot="public">std::wistringstream</innerclass>
+    <innerclass refid="classstd_1_1wofstream" prot="public">std::wofstream</innerclass>
+    <innerclass refid="classstd_1_1wostream" prot="public">std::wostream</innerclass>
+    <innerclass refid="classstd_1_1wostringstream" prot="public">std::wostringstream</innerclass>
+    <innerclass refid="classstd_1_1wstring" prot="public">std::wstring</innerclass>
+    <innerclass refid="classstd_1_1wstring__view" prot="public">std::wstring_view</innerclass>
+    <innerclass refid="classstd_1_1wstringstream" prot="public">std::wstringstream</innerclass>
+    <briefdescription>
+<para>STL namespace. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[STL]" line="1" column="1"/>
+  </compounddef><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="member__groups_8h" kind="file" language="C++">
+    <compoundname>member_groups.h</compoundname>
+    <innerclass refid="structecs__filter__t" prot="public">ecs_filter_t</innerclass>
+      <sectiondef kind="user-defined">
+      <header>API Types</header>
+      <description><para>Basic API Types </para>
+</description>
+      <memberdef kind="define" id="member__groups_8h_1a9ce646454010ef1bd55ea09584ea8a65" prot="public" static="no">
+        <name>ZECS_INS</name>
+        <initializer>((ecs_entity_t)1 &lt;&lt; 63)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Some other define. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="7" column="9" bodyfile="member_groups.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="member__groups_8h_1a1942a9da5a5e28f48764dcf80b092d2f" prot="public" static="no">
+        <name>ECS_INSTANCEOF</name>
+        <initializer>((ecs_entity_t)1 &lt;&lt; 63)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The INSTANCEOF role indicates that the components from the entity should be shared with the entity that instantiates the type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="26" column="9" bodyfile="member_groups.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="enum" id="member__groups_8h_1ab0f5929fe1a33b8e23b9901784b4fd75" prot="public" static="no" strong="no">
+        <type/>
+        <name>ecs_match_kind_t</name>
+        <enumvalue id="member__groups_8h_1ggab0f5929fe1a33b8e23b9901784b4fd75a1de70985fb0c9de03a633b1fa2cb3ee3" prot="public">
+          <name>EcsMatchDefault</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="member__groups_8h_1ggab0f5929fe1a33b8e23b9901784b4fd75ac93a06dabf2a3f102574f6c8e57b33aa" prot="public">
+          <name>EcsMatchAll</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match all components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="member__groups_8h_1ggab0f5929fe1a33b8e23b9901784b4fd75a9deca568d11effed47a4c4a6a47615b2" prot="public">
+          <name>EcsMatchAny</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match one of the components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="member__groups_8h_1ggab0f5929fe1a33b8e23b9901784b4fd75ad97227e53c97887a34f46d2f01846e62" prot="public">
+          <name>EcsMatchExact</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match the type exactly </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="member__groups_8h_1ggab0f5929fe1a33b8e23b9901784b4fd75a1de70985fb0c9de03a633b1fa2cb3ee3" prot="public">
+          <name>EcsMatchDefault</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="member__groups_8h_1ggab0f5929fe1a33b8e23b9901784b4fd75ac93a06dabf2a3f102574f6c8e57b33aa" prot="public">
+          <name>EcsMatchAll</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match all components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="member__groups_8h_1ggab0f5929fe1a33b8e23b9901784b4fd75a9deca568d11effed47a4c4a6a47615b2" prot="public">
+          <name>EcsMatchAny</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match one of the components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="member__groups_8h_1ggab0f5929fe1a33b8e23b9901784b4fd75ad97227e53c97887a34f46d2f01846e62" prot="public">
+          <name>EcsMatchExact</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match the type exactly </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Describes how a filter should match components with a table. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="32" column="30" bodyfile="member_groups.h" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="member__groups_8h_1a9d7e835203b1aab0ace689f262bfbf7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func2InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>func2InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 2 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="10" column="6" bodyfile="member_groups.h" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="member__groups_8h_1a86ae42cd2e49f04e09fcca472c652bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void afunc2InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>afunc2InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 4 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="22" column="6" bodyfile="member_groups.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="member__groups_8h_1ab649ea1d5611c745016b04d9470ee99d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func1InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>func1InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 1 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="29" column="6" bodyfile="member_groups.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="member__groups_8h_1adb44cd8713d75ed1a84c6a5f5328f39a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void funcNotInGroup1</definition>
+        <argsstring>()</argsstring>
+        <name>funcNotInGroup1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="41" column="6" bodyfile="member_groups.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="member__groups_8h_1ae572663cd08d1212c0b75360a9304e02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void funcNotInGroup2</definition>
+        <argsstring>()</argsstring>
+        <name>funcNotInGroup2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 1 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="43" column="6" bodyfile="member_groups.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="member_groups.h"/>
+  </compounddef><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="member__groups__only__structs_8h" kind="file" language="C++">
+    <compoundname>member_groups_only_structs.h</compoundname>
+    <innerclass refid="structstruct__b" prot="public">struct_b</innerclass>
+    <innerclass refid="structstruct__a" prot="public">struct_a</innerclass>
+    <innerclass refid="structstruct__c" prot="public">struct_c</innerclass>
+      <sectiondef kind="user-defined">
+      <header>API Types</header>
+      <description><para>Basic API Types </para>
+</description>
+      <memberdef kind="variable" id="member__groups__only__structs_8h_1aefc42fc6f1a4f9b07b7c354a55a2a43b" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structstruct__b" kindref="compound">struct_b</ref></type>
+        <definition>struct struct_b struct_b</definition>
+        <argsstring/>
+        <name>struct_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups_only_structs.h" line="9" column="10"/>
+      </memberdef>
+      <memberdef kind="variable" id="member__groups__only__structs_8h_1a032f77e61dde5f82d74eec1e123934e9" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structstruct__a" kindref="compound">struct_a</ref></type>
+        <definition>struct struct_a struct_a</definition>
+        <argsstring/>
+        <name>struct_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups_only_structs.h" line="15" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="member__groups__only__structs_8h_1afeae4e77feb7b8d9fb8898711fca2740" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structstruct__c" kindref="compound">struct_c</ref></type>
+        <definition>struct struct_c struct_c</definition>
+        <argsstring/>
+        <name>struct_c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups_only_structs.h" line="22" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="member_groups_only_structs.h"/>
+  </compounddef><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="modules__groups_8h" kind="file" language="C++">
+    <compoundname>modules_groups.h</compoundname>
+    <innerclass refid="structecs__filter__t" prot="public">ecs_filter_t</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__API_1ga9ce646454010ef1bd55ea09584ea8a65" prot="public" static="no">
+        <name>ZECS_INS</name>
+        <initializer>((ecs_entity_t)1 &lt;&lt; 63)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Some other define. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="8" column="9" bodyfile="modules_groups.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__API_1ga1942a9da5a5e28f48764dcf80b092d2f" prot="public" static="no">
+        <name>ECS_INSTANCEOF</name>
+        <initializer>((ecs_entity_t)1 &lt;&lt; 63)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The INSTANCEOF role indicates that the components from the entity should be shared with the entity that instantiates the type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="27" column="9" bodyfile="modules_groups.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__API_1gab0f5929fe1a33b8e23b9901784b4fd75" prot="public" static="no" strong="no">
+        <type/>
+        <name>ecs_match_kind_t</name>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a1de70985fb0c9de03a633b1fa2cb3ee3" prot="public">
+          <name>EcsMatchDefault</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ac93a06dabf2a3f102574f6c8e57b33aa" prot="public">
+          <name>EcsMatchAll</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match all components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a9deca568d11effed47a4c4a6a47615b2" prot="public">
+          <name>EcsMatchAny</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match one of the components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ad97227e53c97887a34f46d2f01846e62" prot="public">
+          <name>EcsMatchExact</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match the type exactly </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a1de70985fb0c9de03a633b1fa2cb3ee3" prot="public">
+          <name>EcsMatchDefault</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ac93a06dabf2a3f102574f6c8e57b33aa" prot="public">
+          <name>EcsMatchAll</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match all components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a9deca568d11effed47a4c4a6a47615b2" prot="public">
+          <name>EcsMatchAny</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match one of the components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ad97227e53c97887a34f46d2f01846e62" prot="public">
+          <name>EcsMatchExact</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match the type exactly </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Describes how a filter should match components with a table. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="33" column="30" bodyfile="modules_groups.h" bodystart="33" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__API_1ga9d7e835203b1aab0ace689f262bfbf7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func2InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>func2InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 2 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="11" column="6" bodyfile="modules_groups.h" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1ga86ae42cd2e49f04e09fcca472c652bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void afunc2InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>afunc2InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 4 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="23" column="6" bodyfile="modules_groups.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1gab649ea1d5611c745016b04d9470ee99d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func1InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>func1InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 1 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="30" column="6" bodyfile="modules_groups.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1gadb44cd8713d75ed1a84c6a5f5328f39a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void funcNotInGroup1</definition>
+        <argsstring>()</argsstring>
+        <name>funcNotInGroup1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="42" column="6" bodyfile="modules_groups.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1gae572663cd08d1212c0b75360a9304e02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void funcNotInGroup2</definition>
+        <argsstring>()</argsstring>
+        <name>funcNotInGroup2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 1 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="44" column="6" bodyfile="modules_groups.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="modules_groups.h"/>
+  </compounddef><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="README_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="README.md"/>
+  </compounddef><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="group__API" kind="group">
+    <compoundname>API</compoundname>
+    <title>Types</title>
+    <innerclass refid="structecs__filter__t" prot="public">ecs_filter_t</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__API_1gab0f5929fe1a33b8e23b9901784b4fd75" prot="public" static="no" strong="no">
+        <type/>
+        <name>ecs_match_kind_t</name>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a1de70985fb0c9de03a633b1fa2cb3ee3" prot="public">
+          <name>EcsMatchDefault</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ac93a06dabf2a3f102574f6c8e57b33aa" prot="public">
+          <name>EcsMatchAll</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match all components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a9deca568d11effed47a4c4a6a47615b2" prot="public">
+          <name>EcsMatchAny</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match one of the components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ad97227e53c97887a34f46d2f01846e62" prot="public">
+          <name>EcsMatchExact</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match the type exactly </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a1de70985fb0c9de03a633b1fa2cb3ee3" prot="public">
+          <name>EcsMatchDefault</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ac93a06dabf2a3f102574f6c8e57b33aa" prot="public">
+          <name>EcsMatchAll</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match all components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75a9deca568d11effed47a4c4a6a47615b2" prot="public">
+          <name>EcsMatchAny</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match one of the components in a type </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__API_1ggab0f5929fe1a33b8e23b9901784b4fd75ad97227e53c97887a34f46d2f01846e62" prot="public">
+          <name>EcsMatchExact</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Match the type exactly </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Describes how a filter should match components with a table. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="33" column="30" bodyfile="modules_groups.h" bodystart="33" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="group__API_1gab9909ad22416bf7d885e91f72d9d68c9" prot="public" static="no" mutable="no">
+        <type>ecs_type_t</type>
+        <definition>ecs_type_t ecs_filter_t::include</definition>
+        <argsstring/>
+        <name>include</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Components that should match </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="15" column="16" bodyfile="member_groups.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__API_1ga5047d3321021499f9d537813731b1918" prot="public" static="no" mutable="no">
+        <type>ecs_type_t</type>
+        <definition>ecs_type_t ecs_filter_t::exclude</definition>
+        <argsstring/>
+        <name>exclude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Components that should not match </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="16" column="16" bodyfile="member_groups.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__API_1ga784f343f8d107d1d9e6948f8ffcb86e6" prot="public" static="no" mutable="no">
+        <type><ref refid="member__groups_8h_1ab0f5929fe1a33b8e23b9901784b4fd75" kindref="member">ecs_match_kind_t</ref></type>
+        <definition>ecs_match_kind_t ecs_filter_t::include_kind</definition>
+        <argsstring/>
+        <name>include_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Match kind for include components </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="17" column="22" bodyfile="member_groups.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__API_1gaf00367c46db740cfa41feef15b215d1d" prot="public" static="no" mutable="no">
+        <type><ref refid="member__groups_8h_1ab0f5929fe1a33b8e23b9901784b4fd75" kindref="member">ecs_match_kind_t</ref></type>
+        <definition>ecs_match_kind_t ecs_filter_t::exclude_kind</definition>
+        <argsstring/>
+        <name>exclude_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Match kind for exclude components </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups.h" line="18" column="22" bodyfile="member_groups.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__API_1ga9d7e835203b1aab0ace689f262bfbf7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func2InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>func2InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 2 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="11" column="6" bodyfile="modules_groups.h" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1ga86ae42cd2e49f04e09fcca472c652bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void afunc2InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>afunc2InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 4 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="23" column="6" bodyfile="modules_groups.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1gab649ea1d5611c745016b04d9470ee99d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func1InGroup3</definition>
+        <argsstring>()</argsstring>
+        <name>func1InGroup3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 1 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="30" column="6" bodyfile="modules_groups.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1gadb44cd8713d75ed1a84c6a5f5328f39a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void funcNotInGroup1</definition>
+        <argsstring>()</argsstring>
+        <name>funcNotInGroup1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="42" column="6" bodyfile="modules_groups.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="group__API_1gae572663cd08d1212c0b75360a9304e02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void funcNotInGroup2</definition>
+        <argsstring>()</argsstring>
+        <name>funcNotInGroup2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function 1 in group 3. Details. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="44" column="6" bodyfile="modules_groups.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__API_1ga9ce646454010ef1bd55ea09584ea8a65" prot="public" static="no">
+        <name>ZECS_INS</name>
+        <initializer>((ecs_entity_t)1 &lt;&lt; 63)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Some other define. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="8" column="9" bodyfile="modules_groups.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__API_1ga1942a9da5a5e28f48764dcf80b092d2f" prot="public" static="no">
+        <name>ECS_INSTANCEOF</name>
+        <initializer>((ecs_entity_t)1 &lt;&lt; 63)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The INSTANCEOF role indicates that the components from the entity should be shared with the entity that instantiates the type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modules_groups.h" line="27" column="9" bodyfile="modules_groups.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Basic API Types. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef><compounddef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="md_README" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>group</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef></doxygen>

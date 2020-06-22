@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="member__groups__only__structs_8h" kind="file" language="C++">
+    <compoundname>member_groups_only_structs.h</compoundname>
+    <innerclass refid="structstruct__b" prot="public">struct_b</innerclass>
+    <innerclass refid="structstruct__a" prot="public">struct_a</innerclass>
+    <innerclass refid="structstruct__c" prot="public">struct_c</innerclass>
+      <sectiondef kind="user-defined">
+      <header>API Types</header>
+      <description><para>Basic API Types </para>
+</description>
+      <memberdef kind="variable" id="member__groups__only__structs_8h_1aefc42fc6f1a4f9b07b7c354a55a2a43b" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structstruct__b" kindref="compound">struct_b</ref></type>
+        <definition>struct struct_b struct_b</definition>
+        <argsstring></argsstring>
+        <name>struct_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups_only_structs.h" line="9" column="10"/>
+      </memberdef>
+      <memberdef kind="variable" id="member__groups__only__structs_8h_1a032f77e61dde5f82d74eec1e123934e9" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structstruct__a" kindref="compound">struct_a</ref></type>
+        <definition>struct struct_a struct_a</definition>
+        <argsstring></argsstring>
+        <name>struct_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups_only_structs.h" line="15" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="member__groups__only__structs_8h_1afeae4e77feb7b8d9fb8898711fca2740" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structstruct__c" kindref="compound">struct_c</ref></type>
+        <definition>struct struct_c struct_c</definition>
+        <argsstring></argsstring>
+        <name>struct_c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="member_groups_only_structs.h" line="22" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="member_groups_only_structs.h"/>
+  </compounddef>
+</doxygen>
